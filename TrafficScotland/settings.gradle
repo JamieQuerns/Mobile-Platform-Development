@@ -1,0 +1,2 @@
+rootProject.name = "TrafficScotland"
+include ':app'

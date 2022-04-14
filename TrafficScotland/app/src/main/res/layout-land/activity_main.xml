@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--  <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Hello World!"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
+
+     MPD XML Starter code Semester B Session 2020 2021 -->
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/salutation"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="James Querns - S2026518"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/filter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Search Road or Location:"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/search"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/showIncedents"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Show incidents" />
+            <Button
+                android:id="@+id/showRoadworks"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Show current roadworks" />
+            <Button
+                android:id="@+id/showPlannedRoadworks"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Show planned roadworks" />
+            <EditText
+                android:id="@+id/dataDisplay"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/acknowledgement"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Contains Traffic Scotland Data"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
